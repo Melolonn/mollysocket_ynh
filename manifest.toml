@@ -7,7 +7,7 @@ name = "Mollysocket"
 description.en = "Server for unified push support in Molly chat application"
 description.fr = "Serveur pour le support de unified push dans l’application de discussions Molly"
 
-version = "1.4.1~ynh1"
+version = "1.5.4~ynh1"
 
 maintainers = ["mcmic"]
 
@@ -56,7 +56,7 @@ ram.runtime = "50M"
     #    ynh_setup_source --dest_dir="$install_dir"
     # You can also define other assets than "main" and add --source_id="foobar" in the previous command
     amd64.url = "https://github.com/mollyim/mollysocket/releases/download/1.5.4/mollysocket-linux_amd64"
-    amd64.sha256 = "a162b394f4a016a80eb1a148624d8e650027bfb3ed9b65902dc5e84a7ed14fa2"
+    amd64.sha256 = "eee8203cda7f313a7355ed60c0a0804032a7b33bbabfed6f6894db4ce63f0254"
     arm64.url = "https://github.com/mollyim/mollysocket/releases/download/1.5.4/mollysocket-linux_arm64"
     arm64.sha256 = "6eefe8e1f274897198eb58baddc384498a7b3850b74224ea0d93416d0920512c"
     armhf.url = "https://github.com/mollyim/mollysocket/releases/download/1.5.4/mollysocket-linux_arm_v7"
